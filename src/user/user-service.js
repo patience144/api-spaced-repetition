@@ -56,16 +56,16 @@ const UserService = {
         .first();
 
       const languageWords = [
-        ['Hochzeiten', 'weddings', 2],
-        ['sind', 'are', 3],
-        ['Grundsätzlich', 'Basically', 4],
-        ['Beerdigungen', 'Funerals', 5],
-        ['mit', 'with', 6],
-        ['kuchen', 'cake', 7],
-        ['herzlich willkommen', 'welcome', 8],
-        ['zu', 'to', 9],
-        ['das', 'the', 10],
-        ['verein', 'club', null],
+        ['Shalam', 'peace', 2],
+        ['Ahnachnawa', 'we', 3],
+        ['Shamayam', 'heaven', 4],
+        ['Ahab', 'love', 5],
+        ['Nashaq', 'kiss', 6],
+        ['Thawadah', 'thank you', 7],
+        ['Yayan', 'wine', 8],
+        ['Ahchaad', 'one', 9],
+        ['Ahmawanah', 'faithful', 10],
+        ['Babaqasha', 'please', null],
       ];
 
       const [languageHeadId] = await trx.into("word").insert(

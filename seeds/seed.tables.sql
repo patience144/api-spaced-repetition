@@ -9,28 +9,29 @@ INSERT INTO "user" ("id", "username", "name", "password")
 VALUES
   (
     1,
-    'Grader',
+    'Demo',
     'Dunder Mifflin Admin',
-    'password1!'
+    -- 'pass',
+    '$2a$10$fCWkaGbt7ZErxaxclioLteLUgg4Q3Rp09WW0s/wSLxDKYsaGYUpjG'
     
   );
 
 INSERT INTO "language" ("id", "name", "user_id")
 VALUES
-  (1, 'German', 1);
+  (1, 'Hebrew', 1);
 
 INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
-  (1, 1, 'Hochzeiten', 'weddings', 2),
-  (2, 1, 'sind', 'are', 3),
-  (3, 1, 'Grundsätzlich', 'Basically', 4),
-  (4, 1, 'Beerdigungen', 'Funerals', 5),
-  (5, 1, 'mit', 'with', 6),
-  (6, 1, 'Kuchen', 'cake', 7),
-  (7, 1, 'herzlich willkommen', 'welcome', 8),
-  (8, 1, 'zu', 'to', 9),
-  (9, 1, 'das', 'the', 10),
-  (10, 1, 'Verein', 'club', null);
+  (1, 1, 'Shalam', 'peace', 2),
+  (2, 1, 'Ahnachnawa', 'we', 3),
+  (3, 1, 'Shamayam', 'heaven', 4),
+  (4, 1, 'Ahab', 'love', 5),
+  (5, 1, 'Nashaq', 'kiss', 6),
+  (6, 1, 'Thawadah', 'thank you', 7),
+  (7, 1, 'Yayan', 'wine', 8),
+  (8, 1, 'Ahchaad', 'one', 9),
+  (9, 1, 'Ahmawanah', 'faithful', 10),
+  (10, 1, 'Babaqasha', 'please', null);
 
 UPDATE "language" SET head = 1 WHERE id = 1;
 
