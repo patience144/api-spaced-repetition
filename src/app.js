@@ -14,7 +14,8 @@ app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
   skip: () => NODE_ENV === 'test',
 }))
 app.use(cors({
-  origin: 'https://client-spaced-repetition.vercel.app'
+  // origin: 'https://client-spaced-repetition.vercel.app'
+  origin: 'http://localhost:3000'
 }))
 app.use(helmet())
 
