@@ -15,7 +15,7 @@
   },
   "keywords": [],
   "engines": {
-    "node": "12"
+    "node": "12.0.0"
   },
   "author": "Tom `tomatao` HT <tomht@thinkful.com>",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "jsonwebtoken": "^8.5.0",
     "knex": "^0.21.17",
     "morgan": "^1.9.1",
-    "pg": "^7",
+    "pg": "^7.0.0",
     "postgrator-cli": "^3.2.1"
   },
   "devDependencies": {
